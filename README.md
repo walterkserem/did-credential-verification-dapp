@@ -1,13 +1,31 @@
-# Sample Hardhat Project
+# Decentralized Identity (DID) Credential Verification DApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+A blockchain-based decentralized identity and credential verification system built with Solidity, Hardhat, React, Ethers.js, and MetaMask.
 
-Try running some of the following tasks:
+## Features
+- Connect wallet with MetaMask
+- Issue credentials with document metadata
+- Hash uploaded documents in the browser
+- Store only document hashes on-chain
+- View issued credentials
+- Revoke credentials
+- Verify uploaded documents against on-chain records
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## Tech Stack
+- Solidity
+- Hardhat
+- React.js
+- Ethers.js
+- MetaMask
+
+## Project Structure
+- `contracts/` - Solidity smart contracts
+- `scripts/` - deployment scripts
+- `frontend/` - React frontend
+- `hardhat.config.js` - Hardhat configuration
+
+## How to Run Locally
+
+### 1. Install backend dependencies
+```bash
+npm install
